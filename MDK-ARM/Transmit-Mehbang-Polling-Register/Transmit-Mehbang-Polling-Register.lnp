@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"transmit-mehbang-polling-register\startup_stm32f103xb.o"
+"transmit-mehbang-polling-register\main.o"
+"transmit-mehbang-polling-register\gpio.o"
+"transmit-mehbang-polling-register\dma.o"
+"transmit-mehbang-polling-register\tim.o"
+"transmit-mehbang-polling-register\usart.o"
+"transmit-mehbang-polling-register\stm32f1xx_it.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_msp.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_gpio_ex.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_tim.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_tim_ex.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_rcc.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_rcc_ex.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_gpio.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_dma.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_cortex.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_pwr.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_flash.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_flash_ex.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_exti.o"
+"transmit-mehbang-polling-register\stm32f1xx_hal_uart.o"
+"transmit-mehbang-polling-register\system_stm32f1xx.o"
+--strict --scatter "Transmit-Mehbang-Polling-Register\Transmit-Mehbang-Polling-Register.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Transmit-Mehbang-Polling-Register.map" -o Transmit-Mehbang-Polling-Register\Transmit-Mehbang-Polling-Register.axf
